@@ -1,0 +1,68 @@
+.container {
+    position: relative;
+    overflow: hidden;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 484px;
+    background: url('../image/PIC1.jpeg') no-repeat  center center/cover ;
+    filter: brightness(0.4); 
+    z-index: 1; 
+  }
+
+.content {
+    position: relative;
+    z-index: 2;
+    text-align: left;
+    color: white; 
+    font-weight: bold;
+   
+}
+
+.content h1{
+    font-size: 64px;
+    margin: 93px 52px 35px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 35px 54px 50px;
+    max-width: 550px;
+}
+
+.S_container{
+    display: flex;
+}
+
+.content_01{
+    height: 537px;
+    width: 50%;
+    background-color: #EDF0F7;
+    font-weight: bold;
+}
+
+.content_01 h1{
+    font-size: 154px;
+    margin: 100px 52px 30px;
+}
+
+.content_01 p {
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 25px 54px 100px;
+    max-width: 550px;
+}
+
+.content_pic{
+    display: flex;
+    background: url('../image/PIC1.jpeg') ;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 537px;
+    width: 50%;
+}
