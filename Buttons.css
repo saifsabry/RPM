@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+button {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+/* header logo buttons */
+.btn_logo {
+    padding: 12px 40px;
+    background-color: var(--primary_color);
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    color: var(--white);
+}
+
+/* header  sign in buttons */
+.btn_Sign_in {
+    margin-left: 32px;
+    padding: 12px 20px;
+    background-color: var(--white);
+    border-radius: 2px;
+    text-align: center;
+    border: 2px;
+    outline-color: var(--primary_color);
+    outline-style: solid;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.join_now {
+
+    margin-top: 40px;
+    height: 56px;
+    width: 148px;
+    background-color: var(--primary_color);
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    color: var(--white);
+
+}
+
+.all_courses_button {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 148px;
+    background-color: var(--primary_color);
+    border-radius: 4px;
+    border: none;
+    color: var(--white);
+}
+
+/* header sign up buttons*/
+.btn_Sign_up {
+    margin-left: 16px;
+    padding: 12px 20px;
+    background-color: var(--primary_color);
+    border-radius: 4px;
+    text-align: center;
+    color: var(--white);
+}
+
+/* Submit button  in card*/
+.btn_submit {
+    font-weight: 800;
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: var(--primary_color);
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: var(--white)
+}
+
+/* logo button in footer */
+.cta_footer {
+    padding: 12px 40px;
+    margin-left: 0px;
+    margin-top: 78px;
+    margin-bottom: 29px;
+    background-color: var(--primary_color);
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    color: var(--white);
+}
+
+
+/* social media buttons in footer  */
+
+.fa {
+    padding: 10px 10px;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-facebook {
+    background: #2D3648;
+    color: var(--white);
+}
+
+.fa-twitter {
+    background: #2D3648;
+    color: var(--white);
+}
+
+.fa-instagram {
+    background: #2D3648;
+    color: var(--white);
+}
+
+.fa-youtube {
+    background: #2D3648;
+    color: var(--white);
+}
+
+.pic_footer {
+    width: 336px;
+    height: 81px;
+
+}
+
+img {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    max-height: 100%;
+}
+
+/**/
+.Pri_btn_long {
+    padding: 12px 214px;
+    background-color: var(--primary_color);
+    color: var(--white);
+    border-radius: 6px;
+}
+
+/* google and facebook buttons */
+.Sec_btn_long {
+    display: flex;
+    text-align: center;
+    font-weight: 400;
+    margin: 16px 0px 16px 0px;
+    border: 2px solid var(--primary_color);
+    border-radius: 12px;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 56px;
+}
+
+/* aliging facebook and google icons */
+img.facebook {
+    width: 32;
+    height: 32;
+    margin-right: 10px
+}
+
+img.google {
+    width: 32;
+    height: 32;
+    margin-right: 14px
+}
