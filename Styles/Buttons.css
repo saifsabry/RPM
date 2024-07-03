@@ -37,6 +37,9 @@ button {
     border-radius: 4px;
     text-align: center;
     color: var(--white);
+    outline-color: var(--primary_color);
+    outline-style: solid;
+    border: 2px;
 }
 
 /* Submit button  in card*/
