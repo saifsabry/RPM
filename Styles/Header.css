@@ -35,7 +35,7 @@ header {
     padding-left: 100px;
     padding-right: 236px;
     text-decoration: none;
-
+    border-bottom: 2px solid #1A202C;
 }
 
 .headers_links {
@@ -54,3 +54,12 @@ header {
 .headers_links li a:hover {
     color: var(--primary_color);
 }
+
+/* hr.solid {
+    border-top: 2px solid #1A202C;
+    position: absolute;
+    top: 96px;
+    left: -10px;
+    right: -10px;
+} */
+  
