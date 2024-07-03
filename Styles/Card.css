@@ -20,11 +20,11 @@
 
 .section_cards {
     align-items: center;
-    margin-right: 100px;
-    margin-left: 100px;
     margin: auto;
-    width: 80%;
-    margin-bottom: 80px;
+    width: 85%;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 
 .Card-Container {
