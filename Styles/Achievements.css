@@ -47,7 +47,7 @@
 
 .content_01 h1{
     font-size: 154px;
-    margin: 100px 52px 30px;
+    margin: 100px 54px 30px;
 }
 
 .content_01 p {
@@ -57,9 +57,19 @@
     max-width: 550px;
 }
 
-.content_pic{
+.content_PIC3{
     display: flex;
-    background: url('../image/PIC1.jpeg') ;
+    background: url('../image/PIC3.jpeg') ;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 537px;
+    width: 50%;
+}
+
+.content_PIC2{
+    display: flex;
+    background: url('../image/PIC2.jpeg') ;
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
