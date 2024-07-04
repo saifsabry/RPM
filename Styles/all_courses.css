@@ -2,38 +2,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet');
 
-.all_courses{
+.all_courses {
     background: #D9D9D9;
-    padding-top: 52px;
-    padding-bottom: 52px;
+    padding: 52px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.all_courses h1{
-    margin-bottom: 12px;
+.all_courses h1 {
+    margin: 0 0 12px 79px;
     font-size: 56px;
-    margin-left: 79px;
     font-weight: 700;
     color: var(--primary_color);
 }
 
-.all_courses input{
-    margin-right: px;
+.search {
     background: #ffffff;
-    width: 421px;
-    font-size: 17px;
-    font-weight: 300;
-    border-radius: 12px;
-    height: 52px;
-    padding-left: 59px;
-    border-color: #333333;
-    border-style:solid;
-    color: #333333;
-    border-width: 1px;
+    padding: 46px 0 21px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
 }
-.container{
 
-    margin: 20px 20px
+.search-container {
+    width: 299px;
+    height: 41px;
+    background-color: #2D3648;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding-left: 23px;
+    margin-left: 600px;
+}
+
+.search-container {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.search input {
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: none;
+    padding-left: 16px;
+    color: #ffffff;
+}
+
+.container {
+    margin: 20px;
+}
+
+.search_and_filter {
+    display: flex;
+    align-items: center;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    margin-left: 126px;
+}
+
+.filter a {
+    display: flex;
+    margin-left: 16px;
+    height: 41px;
+    width: 118px;
+    background-color: var(--white);
+    border-radius: 40px;
+    text-align: center;
+    border: 2px solid var(--primary_color);
+    align-items: center;
+    justify-content: center;
 }
