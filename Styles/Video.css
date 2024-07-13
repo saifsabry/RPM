@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet');
+
 .first{
     display: flex;
     font-family: Poppins;
@@ -16,33 +20,43 @@
     display: block;
     margin: 0; /* Remove any default margin */
     padding: 0; /* Remove any default padding */
-    width: 36.875%; /* Ensure this is consistent with your design */
+    width: 708px; /* Ensure this is consistent with your design */
 } 
 
 iframe{
-    width: 100%;
+    width: 1212px;
     margin: 0;
 }
 
 .boxH{
-    font-weight: 500;
-    font-size: 20px; /* Specify unit */
-    text-align: center;
-    padding: 18.02px 186px 12.72px 187px;
     background-color: #2D3648;
+    /* max-height: 74.9px; */
+    justify-content: center;
+    align-items: center;
+}
+.boxH p{
     color: white;
+    background-color: #2D3648;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 15px;
+    padding: 20px;
+    font-family: "Poppins" sans-serif;
+    font-size: 20px;
 }
 
 .farah {
-    font-family: Arial, sans-serif;
-    width: 100%; /* Ensure this is consistent with your design */
-    justify-content: left; /* Align to the left */
-    align-items: left; /* Center vertically */
+    font-family: "Inter", sans-serif;
+    width: 708; 
+    justify-content: left; 
+    align-items: left; 
 }
 
 .course-outline {
     border: 1px solid #ddd; 
-    margin-top: 13px;
+    /* max-height: 718px; */
+    /* overflow: auto; */
 }
 
 details {
@@ -53,10 +67,11 @@ summary {
     padding: 15px;  
     cursor: pointer;
     background-color: #f5f5f5;
-    font-weight: bold;
+    font-weight: 500;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: left;
 }
 
 summary::marker {
@@ -80,7 +95,7 @@ details[open] summary::before {
     color: #666;
 }
 
-ul {
+.ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -90,7 +105,7 @@ ul ul {
     padding-left: 20px;
 }
 
-li {
+.li {
     padding: 5px 15px;
     border-top: 1px solid #ddd;
     display: flex;
@@ -106,46 +121,98 @@ li {
 }
 
 .About{
-    margin: 30px 0px 21.5px 27.5px ;
+    margin: 40px 0px 28.76px 37.33px ;
     font-family: Poppins;
 }
 
 .p1{
     font-weight: 500;
-    font-size: 18px; /* Specify unit */
-    margin-bottom: 7px;
+    font-size: 24px; 
+    margin-bottom: 9.335px;
 }
 
 .p2{
     font-weight: light;
-    font-size: 14px; /* Specify unit */
-    margin-top: 7px;
-    max-width: 100%; /* Ensure this is consistent with your design */
+    font-size: 18.67px; 
+    margin-top: 9.335px;
+    max-width: 100%; 
 }
 
 .last{
     display: flex;
-    justify-content: space-between; /* Distribute space between child elements */
+    justify-content: space-between; 
+    font-size: 21.33px;
 }
 
 .b1{
-    margin: 18.5px 0px 174px 28px;
+    margin: 24.67px 0px 232px 37.33px;
     font-weight: 500;
-    font-size: 16px; /* Specify unit */
+    
 }
 
 .b2{
-    max-width: 13.48611111111111%;
-    margin: 18.5px 117px 84px;
+    max-width: 252px;
+    max-height: 160px;
+    margin: 24.67px 105.33px 112px 156.33px;
     line-height: 1.8;
-    font-size: 16px; /* Specify unit */
+   
     font-weight: light;
 }
 
 .b3{
-    max-width: 11.25%;
+    max-width: 216px;
     line-height: 1.8;
-    font-size: 16px; /* Specify unit */
     font-weight: light;
-    margin: 18.5px 194px 144px 0px;
+    margin: 24.67px 276px 192px 0px;
 }
+
+.verticalLine{
+    border-left: 2px solid black;
+    height: 456.5px;
+    position: absolute;
+    left: 1210px;
+}
+
+.see-more-btn {
+    background-color: #2f3a53;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 22px 272px;
+    padding: 5.5px 15px;
+    height: 35px;
+    width: 163px;
+
+}
+
+.see-more-btn svg {
+    margin-left: 8px;
+}
+
+.see-more-btn:hover {
+    background-color: #3b4a6b;
+}
+
+.hidden-content {
+    display: none;
+}
+
+.see-more-checkbox:checked ~ .hidden-content {
+    display: block;
+}
+
+.see-more-checkbox,
+.see-more-checkbox:checked ~ label {
+  display: none;
+}
+
+.see-more-checkbox {
+    display: none;
+}
+
