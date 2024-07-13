@@ -1,0 +1,23 @@
+.title-section
+{
+    background: #EDF0F7;
+    padding-top: 104px;
+    padding-bottom: 124px;
+    padding-left: 138.67px;
+    border-bottom: 2px solid #1A202C;
+
+}
+
+.title-abdo h5{
+     padding-bottom: 16px;
+     font-size: 67px;
+     font-weight: 700;
+     color: var(--primary_color);
+}
+
+.subtitle p{
+    font-size: 16px;
+    max-width: 640px;
+    color: #3e3f3f;
+    line-height: 1.5;   
+}
