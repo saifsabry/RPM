@@ -14,7 +14,7 @@
     align-items: center;
     font-size: 56px;
     margin-top: 40px;
-    margin-left: 104px;
+    margin-left: 138.67px;
     width: 80%;
     color: var(--primary_color);
 }
@@ -22,7 +22,7 @@
 .section_cards {
     
     align-items: center;
-    margin: auto;
+    margin-left: 138.67px;
     width: 85%;
     margin-bottom: 20px;
     display: grid;

@@ -18,21 +18,24 @@ footer {
 
 .footerContainer {
     width: 100%;
-    padding-left: 104px;
+    padding-left: 138.67px;
 }
 
 .footer_links li {
-    margin-left: px;
+    margin-left: 39px;
 }
 
 
 .footer_links li {
     display: inline-block;
-    padding: 0px 20px;
+    padding-bottom: 43px;
 }
 
 .Copyright {
-    margin-right: 570px;
+    margin-right: 771.33px;
     margin-bottom: 30px;
     margin-top: 20px;
+    margin-left: -39px;
+
 }
+
