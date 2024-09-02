@@ -1,0 +1,78 @@
+.container {
+    position: relative;
+    overflow: hidden;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 649.33px;
+    background: url('../image/PIC1.jpeg') no-repeat  center center/cover ;
+    filter: brightness(0.4); 
+    z-index: 1; 
+  }
+
+.content {
+    position: relative;
+    z-index: 2;
+    text-align: left;
+    color: white; 
+    font-weight: bold;
+   
+}
+
+.content h1{
+    font-size: 85px;
+    margin: 122.67px 78.67px 46.5px;
+}
+
+.content p {
+    font-size: 21px;
+    line-height: 1.2;
+    margin: 46.5px 81.33PX 197.33px;
+    max-width: 550px;
+}
+
+.S_container{
+    display: flex;
+}
+
+.content_01{
+    height: 716px;
+    width: 50%;
+    background-color: #EDF0F7;
+    font-weight: bold;
+}
+
+.content_01 h1{
+    font-size: 205px;
+    margin: 160px 659.33px 36.665px 72px;
+}
+
+.content_01 p {
+    font-size: 21px;
+    line-height: 1.2;
+    margin: 36.665px 180px 192px 72px;
+    max-width: 550px;
+}
+
+.content_PIC3{
+    display: flex;
+    background: url('../image/PIC3.jpeg') ;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 716px;
+    width: 50%;
+}
+
+.content_PIC2{
+    display: flex;
+    background: url('../image/PIC2.jpeg') ;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 716px;
+    width: 50%;
+}
